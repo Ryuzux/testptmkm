@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import styles from '@/styles/User.module.css'
 
 interface User {
   id: number;
@@ -21,7 +22,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
 const UsersList: React.FC<UsersListProps> = ({ users }) => {
   return (
-    <div>
+    <div className={styles.name}>
       {users.map(user => (
         <div key={user.id}>
           <a href={`/users/${user.id}`}>{user.name}</a>

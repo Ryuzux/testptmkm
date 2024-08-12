@@ -1,4 +1,5 @@
 import { GetServerSideProps } from 'next';
+import styles from '@/styles/User.module.css';
 
 interface User {
   id: number;
@@ -23,7 +24,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
 
 const UserDetails: React.FC<UserDetailsProps> = ({ user }) => {
   return (
-    <div>
+    <div className={styles.name}>
       <h1>{user.name}</h1>
       <p>{user.email}</p>
       <p>{user.phone}</p>
