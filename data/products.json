@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "iPhone 9",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549
+        },
+        {
+            "id": 2,
+            "title": "iPhone X",
+            "description": "SIM-Free, Model A1920, 64GB",
+            "price": 899
+        },
+        {
+            "id": 3,
+            "title": "iPhone 8",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 799
+        },
+        {
+            "id": 4,
+            "title": "iPhone 11 Pro",
+            "description": "SIM-Free, Model A1920, 64GB", 
+            "price": 1099
+        }
+    ]
+}
